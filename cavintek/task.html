@@ -1,0 +1,312 @@
+<html>
+
+	<head>
+		<title>task2</title>
+	</head>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="task.css">
+				
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Karantina&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		
+		<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap" rel="stylesheet">
+		
+	<body>
+	
+		<!--heading-->
+		
+		<div class="page-header">
+		
+			<h2 class="bold">Pricing Plans</h2>
+			
+			<h2 class="normal">Choose your best Plan by switching between the different prices</h2>
+			
+		</div>
+		
+		<!--togglebutton-->
+		
+		<div class="form-box">
+		
+			<div class="button-box">
+			
+				<div id="btn" class="btn"></div>
+				
+				<button type="button" class="toggle-btn" onclick="leftClick(); showmonth()">Month</button>
+				
+				<button type="button" class="toggle-btn" onclick="rightClick(); showyear()">Yearly</button>
+				
+			</div>
+			
+		</div>
+		
+		<!--3divisions-->
+		
+		<div class="container">
+			
+				<div class="row">
+				
+					<div class="col-md-4">
+					
+						<div class="first firstcol"  style="dispay:block">
+						
+							<div class="firstdiv firstp">
+							
+								<center>
+							
+									<img src="v1.png">
+									
+									<h2 class="bold underline">Basic</h2>	
+									
+									<div class="" id="m1">
+										<h2>$14</h2>
+									</div>
+									
+									<div class="" id="y1">
+										<h2>$20</h2>
+									</div>
+									
+									<h2 class="litecolor">/month</h2>
+									
+									<h2><span class="tick">✓</span><span class="bold">5 Projects</span></h2>
+									
+									<button type="button" class="btn btn-default">choose ></button>
+							 
+								</center>
+							 
+							</div>
+							 
+							<div class="ocean">
+							 
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+							</div>
+							 
+						</div>
+					
+					</div>
+					
+					<div class="col-md-4">
+					
+						<div class="second firstcol"  style="dispay:block">
+						
+							<div class="seconddiv firstp">
+							
+							<center>
+							
+							<img src="v2.png">
+							
+							<h2 class="bold underline">Plus</h2>	
+							
+							<div class="" id="m2">
+								<h2>$74</h2>
+							</div>
+									
+							<div class="" id="y2">
+								<h2>$99</h2>
+							</div>
+							
+							<h2 class="litecolor">/month</h2>
+							
+							<h2><span class="tick">✓</span><span class="bold">5 Projects</span></h2>
+							
+							<h2><span class="tick">✓</span><span class="bold">Get 10 Getty pics </span></h2>
+							
+							 <button type="button" class="btn btn-default">choose ></button>
+
+							 </center>
+							 
+							 </div>
+							 
+							<div class="ocean">
+							
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+								  
+							</div>
+							
+						</div>
+					
+					</div>
+					
+					<div class="col-md-4">
+					
+						<div class="third firstcol" id="unhiddenpart">
+												
+							<div class="thirddiv firstp">
+							
+								<center>
+								
+									<img src="v3.png">
+								
+									<h2 class="bold underline">Pro</h2>	
+									
+									<div class="" id="m3">
+										<h2>$140</h2>
+									</div>
+												
+									<div class="" id="y3">
+										<h2>$195</h2>
+									</div>
+									
+									<h2 class="litecolor">/month</h2>
+								
+									<h2><span class="tick">✓</span><span class="bold">30 Projects</span></h2>
+								
+									<h2><span class="tick">✓</span> <span class="bold">Get 20 Getty pics</span></h2>							
+		
+									<button onclick="unhiddenpart()" class="alink"><a><span class="tick" >+</span>seemore</a></button>
+								
+									<div class="button">
+								
+										<button type="button" class="btn btn-default">choose ></button>
+									
+									</div>
+								</center>
+								 
+							</div>
+								 
+							<div class="ocean">
+								
+									<div class="wave"></div>
+									  
+									<div class="wave"></div>
+									  
+									<div class="wave"></div>
+									  
+							</div>
+							
+						</div>					
+					
+						<!--hidden part-->
+						
+						<div class="third firstcol hidden" id="hiddenpart">
+							<div class="thirddiv firstp">
+								<center>							
+							
+									<h2><span class="tick">✓</span><span class="bold">30 Projects</span></h2>
+									
+									<h2><span class="tick">✓</span> <span class="bold">Get 20 Getty pics</span></h2>
+									
+									<h2><span class="tick">✓</span> <span class="bold">Have your works stored in a database</span></h2>
+									
+									<h2><span class="tick">✓</span> <span class="bold">Be searched by industry Professional</span></h2>
+									
+									<h2><span class="tick">✓</span> <span class="bold">Monitor who youu you share it whith</span></h2>
+									
+									<h2><span class="tick">✓</span> <span class="bold">Promote ans share your books</span></h2>
+									
+									<button onclick="hiddenpart()" class="alink"><a><span class="tick" >-</span>seeless</a></button>
+							
+									<div class="button>
+								
+										<button type="button" class="btn btn-default">choose ></button>
+							 
+									</div>
+							 
+								</center>
+							</div>
+							 <div class="ocean">
+							 
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+								  
+								  <div class="wave"></div>
+								  
+							</div>
+							
+						</div>
+
+					
+					</div>
+				</div>
+		</div>
+	</body>
+	
+</html>
+
+
+
+<script>
+	var btn = document.getElementById('btn')
+
+	function leftClick() {
+	btn.style.left = '0'
+}
+
+	function rightClick() {
+	btn.style.left = '110px'
+}
+function unhiddenpart(){
+	
+	
+	var d1 = document.getElementById("unhiddenpart");
+	d1.classList.add("hidden");
+	var d2 = document.getElementById("hiddenpart");
+	d2.classList.remove("hidden");
+	
+}
+	function hiddenpart(){
+	
+	var d1 = document.getElementById("unhiddenpart");
+	d1.classList.remove("hidden");
+	var d2 = document.getElementById("hiddenpart");
+	d2.classList.add("hidden");
+}	
+
+function showmonth()
+{
+	var div1 = document.getElementById("m1");
+	var div2 = document.getElementById("y1");
+	var div3 = document.getElementById("m2");
+	var div4 = document.getElementById("y2");
+	var div5 = document.getElementById("m3");
+	var div6 = document.getElementById("y3");
+	
+	div1.classList.add("hidden");
+	div3.classList.add("hidden");
+	div5.classList.add("hidden");
+	div2.classList.remove("hidden");
+	div4.classList.remove("hidden");
+	div6.classList.remove("hidden");
+}
+function showyear()
+{
+	var div1 = document.getElementById("m1");
+	var div2 = document.getElementById("y1");
+	var div3 = document.getElementById("m2");
+	var div4 = document.getElementById("y2");
+	var div5 = document.getElementById("m3");
+	var div6 = document.getElementById("y3");
+	
+	div1.classList.remove("hidden");
+	div3.classList.remove("hidden");
+	div5.classList.remove("hidden");
+	div2.classList.add("hidden");
+	div4.classList.add("hidden");
+	div6.classList.add("hidden");
+}
+
+</script>
